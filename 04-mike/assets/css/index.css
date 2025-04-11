@@ -1,0 +1,84 @@
+body {
+    overflow-x: hidden;
+}
+
+.layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.layout__container {
+    position: relative;
+    width: 900px;
+    height: 600px;
+    overflow: hidden;
+    border: 10px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.layout__img {
+    display: none;
+    position: absolute;
+    width: 400px;
+    opacity: 0.5;
+    z-index: 3;
+}
+
+.layout__head {
+    position: absolute;
+    left: 250px;
+    top: 48px;
+    width: 370px;
+    height: 424px;
+    border-radius: 50% 50% 50% 50% / 68% 68% 33% 33%;
+    background-color: #81B72B;
+}
+
+.head__eye {
+    position: absolute;
+    top: 31px;
+    left: 84px;
+    width: 203px;
+    height: 203px;
+    background-color: white;
+    border-radius: 100%;
+    border: 8px solid #75A623;
+}
+
+.eye__iris {
+    position: absolute;
+    top: 35px;
+    left: 32px;
+    width: 125px;
+    height: 125px;
+    border-radius: 100%;
+    border: 5px solid black;
+    background: linear-gradient(to top, #04CECB, #1E587E 100%);
+}
+
+.eye__pupil {
+    position: absolute;
+    left: 14px;
+    top: 12px;
+    width: 85px;
+    height: 85px;
+    background-color: black;
+    border-radius: 100%;
+}
+
+.eye__reflex{
+    position: absolute;
+    left: 14px;
+    top: 23px;
+    width: 18px;
+    height: 18px;
+    background-color: white;
+    border-radius: 100%;
+    z-index: 3;
+    opacity: 0.8;
+}
