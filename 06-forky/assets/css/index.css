@@ -109,3 +109,150 @@ body {
     background-color: white;
 }
 
+.forky__eyebrow{
+    width: 203px;
+    height: 100px;
+    border: 25px solid #CE1211;
+    position: absolute;
+    top: 6px;
+    left: 18px;
+    transform: rotate(185deg);
+    clip-path: inset(50% 0 0 0);
+    border-radius: 45% 35% 80% 55% / 25% 35% 90% 100%;
+}
+
+.forky__eyebrow-corner-left{
+    width: 28px;
+    height: 22px;
+    background-color:#CE1211;
+    border-radius: 100%;
+    position: absolute;
+    top: 38px;
+    left: 22px;
+}
+
+.forky__eyebrow-corner-right{
+    width: 26px;
+    height: 27px;
+    background-color:#CE1211;
+    border-radius: 100%;
+    position: absolute;
+    top: 50px;
+    right: 15px;
+}
+
+.forky__eye-left{
+    position: absolute;
+    width: 105px;
+    height: 107px;
+    top: 61px;
+    left: 18px;
+    border-radius: 100%;
+    background-color: #B4ADCD;
+}
+
+.eye-left__pupil{
+    position: absolute;
+    width: 58px;
+    height: 58px;
+    left: 3px;
+    top: 36px;
+    border-radius: 100%;
+    background-color: #110E15;
+}
+
+.forky__eye-right{
+    position: absolute;
+    width: 60px;
+    height: 62px;
+    top: 100px;
+    left: 130px;
+    border-radius: 100%;
+    background-color: #DED5DB;
+}
+
+.eye-right__pupil{
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    left: 12px;
+    top: 18px;
+    border-radius: 100%;
+    background-color: #171216;
+}
+
+.forky__mouth{
+    position: absolute;
+    top: 175px;
+    left: 60px;
+    width: 170px;
+    height: 130px;
+    z-index: 2;
+}
+
+.mouth__lip-top{
+    position: absolute;
+    top: -40px;
+    left: -5px;
+    width: 140px;
+    height: 80px;
+    border: 15px solid #839ED2;
+    transform: rotate(349deg);
+    clip-path: inset(50% 0 0 0);
+    border-radius: 40% 20% 70% 60%;
+}
+
+.mouth__lip-bottom{
+    position: absolute;
+    top: -56px;
+    left: -10px;
+    width: 155px;
+    height: 140px;
+    border: 15px solid #839ED2;
+    clip-path: inset(50% 0 0 0);
+    border-radius: 40% 20% 70% 60%;
+    transform: rotate(-12deg);
+}
+
+.mouth__lip-corner-left{
+    position: absolute;
+    top: 8px;
+    left: -7px;
+    width: 20px;
+    height: 30px;
+    border-radius: 100%;
+    transform: rotate(13deg);
+    background-color: #839ED2;
+}
+
+.forky__stick{
+    width: 55px;
+    height: 190px;
+    position: absolute;
+    top: 230px;
+    left: 90px;
+    background-color: #E5E3E6;
+}
+
+.forky__stick::before{
+    content: "";
+    position: absolute;
+    background-color: #E5E3E6;
+    width: 25px;
+    height: 90px;
+    top: 10px;
+    left: -22px;
+    transform: rotate(145deg);
+}
+
+.forky__stick::after{
+    content: "";
+    position: absolute;
+    background-color: #E5E3E6;
+    width: 25px;
+    height: 90px;
+    top: 10px;
+    right: -15px;
+    transform: rotate(-142deg);
+}
+
