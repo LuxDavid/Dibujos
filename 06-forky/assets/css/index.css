@@ -1,0 +1,111 @@
+body {
+    overflow-x: hidden;
+}
+
+.layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.layout__container {
+    background-color: white;
+    position: relative;
+    width: 900px;
+    height: 600px;
+    overflow: hidden;
+    border: 10px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.layout__img {
+    display: none;
+    position: absolute;
+    z-index: 3;
+    height: 525px;
+    opacity: 0.5;
+}
+
+/* ESTILOS FORKY DE TOY STORY 4*/
+
+.layout__forky{
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 4px;
+    width: 230px;
+    height: 290px;
+    background-color: #E5E3E6;
+    border-radius: 60% 41% 100% 100%;
+}
+
+.forky__hairs{
+    position: absolute;
+    top: -58px;
+    display: flex;
+    flex-direction: row;
+}
+
+.forky__hairs > div{
+    width: 45px;
+    height: 100px;
+    background-color: #E5E3E6;
+}
+
+.forky__hairs > .forky__hair1{
+    margin-left: 32px;
+    width: 50px;
+    border-radius: 0% 100% 0% 0%;
+    transform: rotate(20deg);
+}
+
+.forky__hair1::before{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 70px;
+    top: -15px;
+    left: 20px;
+    border-radius: 5px;
+    transform: rotate(-35deg);
+    background-color: white;
+}
+
+.forky__hairs > .forky__hair2{
+    margin-left: 2px;
+    margin-top: -10px;
+    width: 28px;
+    border-radius: 36% 115% 0% 0% / 85% 140% 0% 0%;
+    transform: rotate(5deg);
+}
+
+.forky__hairs > .forky__hair3{
+    margin-left: 13px;
+    margin-top: -10px;
+    width: 28px;
+    border-radius: 36% 115% 0% 0% / 85% 140% 0% 0%;
+    transform: rotate(5deg);
+}
+
+.forky__hairs > .forky__hair4{
+    margin-left: 0px;
+    width: 53px;
+    border-radius: 100% 0% 0% 0%;
+    transform: rotate(-23deg);
+}
+
+.forky__hair4::before{
+    content: "";
+    position: absolute;
+    width: 12px;
+    height: 75px;
+    top: -20px;
+    left: 21px;
+    border-radius: 5px;
+    transform: rotate(35deg);
+    background-color: white;
+}
+
